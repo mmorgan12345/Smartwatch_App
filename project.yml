@@ -1,0 +1,13 @@
+smartwatch-backend/
+├── project.yml
+└── packages/
+    └── health/
+        └── record/
+            └── main.go
+
+targetNamespace: smartwatch-apps
+packages:
+  - name: health
+    functions:
+      - name: record
+        runtime: go:1.25
