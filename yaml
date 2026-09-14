@@ -1,0 +1,6 @@
+targetNamespace: smartwatch-apps
+packages:
+  - name: health
+    functions:
+      - name: record
+        runtime: go:1.25
